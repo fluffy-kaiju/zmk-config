@@ -28,7 +28,7 @@ include:
       #- -DCONFIG_ZMK_USB=y
   - board: nice_nano
     shield: corne_right
-    snippet: zmk-usb
+    #snippet: zmk-usb
     cmake-args:
       - -DCONFIG_ZMK_SPLIT=n
       - -DCONFIG_BT=n
