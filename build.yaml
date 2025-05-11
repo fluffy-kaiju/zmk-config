@@ -31,11 +31,11 @@ include:
     #snippet: zmk-usb-logging
     snippet: studio-rpc-usb-uart
     cmake-args:
-      #- -DCONFIG_ZMK_SPLIT=y
+      - -DCONFIG_ZMK_SPLIT=y
       #- -DCONFIG_BT=n
       #- -DCONFIG_ZMK_BLE=n
-      #- -DCONFIG_USB=y
-      #- -DCONFIG_ZMK_USB=y
+      - -DCONFIG_USB=y
+      - -DCONFIG_ZMK_USB=y
       #- -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
       - -DCONFIG_ZMK_STUDIO=y
 
