@@ -34,3 +34,4 @@ include:
       - -DCONFIG_ZMK_BLE=n
       - -DCONFIG_USB=y
       - -DCONFIG_ZMK_USB=y
+      - -DCONFIG_ZMK_SPLIT=n
