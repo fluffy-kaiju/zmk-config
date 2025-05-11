@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrf52840dk_nrf52840
+  - board: nice_nano
     shield: corne_left
-  - board: nrf52840dk_nrf52840
+  - board: nice_nano
     shield: corne_right
