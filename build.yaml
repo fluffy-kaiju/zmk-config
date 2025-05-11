@@ -21,5 +21,15 @@
 include:
   - board: nice_nano
     shield: corne_left
+    cmake-args:
+      - -DCONFIG_BT=n
+      - -DCONFIG_ZMK_BLE=n
+      - -DCONFIG_USB=y
+      - -DCONFIG_ZMK_USB=y
   - board: nice_nano
     shield: corne_right
+    cmake-args:
+      - -DCONFIG_BT=n
+      - -DCONFIG_ZMK_BLE=n
+      - -DCONFIG_USB=y
+      - -DCONFIG_ZMK_USB=y
