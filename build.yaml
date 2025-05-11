@@ -30,8 +30,9 @@ include:
     shield: corne_right
     snippet: zmk-usb-logging
     cmake-args:
-      - -DCONFIG_ZMK_SPLIT=n
+      - -DCONFIG_ZMK_SPLIT=y
       - -DCONFIG_BT=n
       - -DCONFIG_ZMK_BLE=n
       - -DCONFIG_USB=y
       - -DCONFIG_ZMK_USB=y
+      - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
