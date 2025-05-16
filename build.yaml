@@ -30,6 +30,7 @@ include:
       - -DCONFIG_ZMK_BLE=n
       - -DCONFIG_USB=y
       - -DCONFIG_ZMK_USB=y
+      - -DCONFIG_ZMK_SPLIT=n
     # cmake-args: -DCONFIG_ZMK_STUDIO=y
     # artifact-name: corne_left_with_studio
   - board: nice_nano_v2
