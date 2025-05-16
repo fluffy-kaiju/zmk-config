@@ -26,8 +26,8 @@ include:
     # snippet: studio-rpc-usb-uart
     snippets: zmk-usb-logging
     cmake-args:
-      #- -DCONFIG_BT=n
-      #- -DCONFIG_ZMK_BLE=n
+      - -DCONFIG_BT=n
+      - -DCONFIG_ZMK_BLE=n
       - -DCONFIG_USB=y
       - -DCONFIG_ZMK_USB=y
     # cmake-args: -DCONFIG_ZMK_STUDIO=y
