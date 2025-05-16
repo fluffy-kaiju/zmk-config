@@ -25,8 +25,13 @@ include:
     shield: corne_left
     # snippet: studio-rpc-usb-uart
     snippets: zmk-usb-logging
+      cmake-args:
+      #- -DCONFIG_BT=n
+      #- -DCONFIG_ZMK_BLE=n
+      - -DCONFIG_USB=y
+      - -DCONFIG_ZMK_USB=y
     # cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: corne_left_with_studio
+    # artifact-name: corne_left_with_studio
   - board: nice_nano_v2
     shield: corne_right
     snippets: zmk-usb-logging
