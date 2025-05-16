@@ -25,7 +25,7 @@ include:
     shield: corne_left
     # snippet: studio-rpc-usb-uart
     snippets: zmk-usb-logging
-      cmake-args:
+    cmake-args:
       #- -DCONFIG_BT=n
       #- -DCONFIG_ZMK_BLE=n
       - -DCONFIG_USB=y
