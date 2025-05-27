@@ -24,13 +24,13 @@ include:
   - board: nice_nano_v2
     shield: corne_left
     # snippet: studio-rpc-usb-uart
-    snippets: zmk-usb-logging
-    cmake-args:
+    # snippets: zmk-usb-logging
+    # cmake-args:
     #   - -DCONFIG_BT=n
     #   - -DCONFIG_ZMK_BLE=n
     #   - -DCONFIG_USB=y
     #   - -DCONFIG_ZMK_USB=y
-      - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+      # - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
       # - -DCONFIG_ZMK_SPLIT=n
       # - -DCONFIG_ZMK_STUDIO=y
     # cmake-args: -DCONFIG_ZMK_STUDIO=y
@@ -39,12 +39,12 @@ include:
   - board: nice_nano_v2
     shield: corne_right
     # snippets: zmk-usb-logging
-    snippet: studio-rpc-usb-uart
-    cmake-args:
+    # snippet: studio-rpc-usb-uart
+    # cmake-args:
       # - -DCONFIG_BT=n
       # - -DCONFIG_ZMK_BLE=n
       # - -DCONFIG_USB=y
       # - -DCONFIG_ZMK_USB=y
-      - -DCONFIG_ZMK_STUDIO=y
-      - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+      # - -DCONFIG_ZMK_STUDIO=y
+      # - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
     artifact-name: corne_right_master_with_studio
