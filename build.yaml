@@ -26,10 +26,11 @@ include:
     snippet: studio-rpc-usb-uart
     # snippets: zmk-usb-logging
     cmake-args:
-      - -DCONFIG_BT=n
-      - -DCONFIG_ZMK_BLE=n
-      - -DCONFIG_USB=y
-      - -DCONFIG_ZMK_USB=y
+    #   - -DCONFIG_BT=n
+    #   - -DCONFIG_ZMK_BLE=n
+    #   - -DCONFIG_USB=y
+    #   - -DCONFIG_ZMK_USB=y
+      - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
       # - -DCONFIG_ZMK_SPLIT=n
       - -DCONFIG_ZMK_STUDIO=y
     # cmake-args: -DCONFIG_ZMK_STUDIO=y
@@ -39,7 +40,8 @@ include:
     shield: corne_right
     snippets: zmk-usb-logging
     cmake-args:
-      - -DCONFIG_BT=n
-      - -DCONFIG_ZMK_BLE=n
-      - -DCONFIG_USB=y
-      - -DCONFIG_ZMK_USB=y
+      # - -DCONFIG_BT=n
+      # - -DCONFIG_ZMK_BLE=n
+      # - -DCONFIG_USB=y
+      # - -DCONFIG_ZMK_USB=y
+      - -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
